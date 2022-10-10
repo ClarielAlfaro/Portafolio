@@ -116,7 +116,19 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.whatsapp ? (
+      {socialMediaLinks.kaggle ? (
+        <a
+          href={socialMediaLinks.kaggle}
+          className="icon-button kaggle"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-kaggle"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {/* {socialMediaLinks.whatsapp ? (
         <a
           href={socialMediaLinks.whatsapp}
           className="icon-button whatsapp"
@@ -126,7 +138,7 @@ export default function socialMedia() {
           <i className="fab fa-whatsapp"></i>
           <span></span>
         </a>
-      ) : null}
+      ) : null} */}
     </div>
   );
 }
