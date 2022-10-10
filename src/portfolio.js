@@ -195,17 +195,13 @@ const openSource = {
 
 const bigProjects = {
   title: "Open Source Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",      
+  footerLink: [
     {
-      footerLink: [
-        {
-          name: "More Projects",
-          url: "https://github.com/ClarielAlfaro"
-        }
-        //  you can add extra buttons here.
-      ]
-    },    
+      name: "More Projects",
+      url: "https://github.com/ClarielAlfaro"
+    }
+    //  you can add extra buttons here.
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -292,11 +288,12 @@ display:  false// Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Get in touch with me"),
+  image: require("./assets/images/foto.png"),
+  
   subtitle:
-    "My Inbox is open for all.",
-  number: "+503 7647-8446",
-  email_address: "clariel.alfaro6@yahoo.com"
+    "My Inbox is open for all."
+  
 };
 
 // Twitter Section
