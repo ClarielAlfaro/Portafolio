@@ -54,9 +54,8 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Experience working with different frameworks such as React Js, Node, Express, MongoDB, and more"
     )
   ],
 
@@ -301,12 +300,11 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Get in touch with me"),
-  projects: [ {
-    image: require("./assets/images/foto.png"), 
-  } ],   
-  subtitle:
+  title: emoji("Get in touch with me"),  
+    image: require("./assets/images/ues.png"), 
+     subtitle:
     "My Inbox is open for all.",
+    location: "El Salvador",
     number: "+503 7647-8446"
     
 };
