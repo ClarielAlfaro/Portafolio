@@ -94,11 +94,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Android",
-      fontAwesomeClassname: "fab fa-Android"
+      fontAwesomeClassname: "fab fa-android"
     },
     {
       skillName: "Java",
-      fontAwesomeClassname: "fab fa-Java"
+      fontAwesomeClassname: "fab fa-java"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -302,9 +302,13 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Get in touch with me"),
-  image: require("./assets/images/foto.png"),  
+  projects: [ {
+    image: require("./assets/images/foto.png"), 
+  } ],   
   subtitle:
-    "My Inbox is open for all."  
+    "My Inbox is open for all.",
+    number: "+503 7647-8446"
+    
 };
 
 // Twitter Section
