@@ -38,8 +38,8 @@ const socialMediaLinks = {
   gmail: "clariel.alfaro6@gmail.com",
   yahoo: "clariel.alfaro6@yahoo.com",
   //gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  whatsApp: "https://wa.me/50376478446",
+  facebook: "https://www.facebook.com/clariel.alfaro.9",
+  whatsapp: "https://wa.me/50376478446",
   //medium: "https://medium.com/@saadpasta",
   
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
@@ -118,22 +118,19 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University Dr. Andres Bello, El Salvador",
-      logo: require("./assets/images/unab.jpg"),
+      logo: require("./assets/images/unab.png"),
       subHeader: "Computer System Engineer",
       duration: "Jan 2019 -  Oct 2024",
       desc: "Participated in courses about Web Development, Data Base Structure, Analysis and Design of Systems, Industrial Software Production Techniques, ...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      
     },
     {
       schoolName: "University of El Salvador",
-      logo: require("./assets/images/ues.jpg"),
+      logo: require("./assets/images/ues.png"),
       subHeader: "Degree, Teaching English as a Second or Foreign Language",
       duration: "Jan 2019 -  Oct 2024",
       desc: "Participating in courses about Human Rights, Psychology, Education for Dievrsity, English Grammar, English Didactics, Linguistic Foundation in English, ... ",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      
     },
     {
       schoolName: "ITCHA AGAPE, El Salvador",
@@ -141,7 +138,7 @@ const educationInfo = {
       subHeader: "English Language",
       duration: "Jan 2019 -  Oct 2024",
       desc: "Participating in courses about Human Rights, Psychology, Education for Dievrsity, English Grammar, English Didactics, Linguistic Foundation in English, ... ",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      
     }
   ]
 };
@@ -177,10 +174,10 @@ const workExperiences = {
       company: "Copy Delmy",
       companylogo: require("./assets/images/copy-delmy.jpeg"),
       date: "May 2017 – August 2019",
-      desc: "Design and implement a console application in C# with Entity framework that automates Copy Delmy's inventory management.",
+      desc: "This company is dedicated to the purchase and sale of school products, and the annual distribution of school packages in Chalatenango.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Design and implement a console application in C# with Entity framework that automates Copy Delmy's inventory management."
+        
       ]
     }
   ]
@@ -306,7 +303,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
