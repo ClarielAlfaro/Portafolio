@@ -1,15 +1,26 @@
-name: My Workflow
-
-on: push
-
+name: Check Format
+on:
+  push:
+  pull_request:
+      branches:
+        - master
 jobs:
-  my-job:
+  check-format:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.5.1 # Actualiza a la última versión que utiliza Node.js 16
-      - uses: actions/setup-node@v2.4.0 # Actualiza a la última versión que utiliza Node.js 16
-      - run: npm install
-      - run: npm run build
-      - run: npm test
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
 
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: '12'
+
+      - name: Install Prettier
+        run: npm install -g prettier
+
+      - name: Check Format
+        run: |
+          prettier -c "./**/*.{js,css,json}"
 
