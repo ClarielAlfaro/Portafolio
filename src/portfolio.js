@@ -41,7 +41,7 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/clariel.alfaro.9",
   whatsapp: "https://wa.me/50376478446",
   //medium: "https://medium.com/@saadpasta",
-  
+
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -52,7 +52,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER WITH A GREAT WILL TO ENHANCE DAY BY DAY HIS ABILITIES IN WEB DEVELOPMENT",
+  subTitle:
+    "FULL STACK DEVELOPER WITH A GREAT WILL TO ENHANCE DAY BY DAY HIS ABILITIES IN WEB DEVELOPMENT",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -107,7 +108,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Android",
       fontAwesomeClassname: "fa-android"
     }
-   ],
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -121,24 +122,21 @@ const educationInfo = {
       logo: require("./assets/images/unab.png"),
       subHeader: "Computer System Engineer",
       duration: "Jan 2019 -  Oct 2024",
-      desc: "Participated in courses about Web Development, Data Base Structure, Analysis and Design of Systems, Industrial Software Production Techniques, ...",
-      
+      desc: "Participated in courses about Web Development, Data Base Structure, Analysis and Design of Systems, Industrial Software Production Techniques, ..."
     },
     {
       schoolName: "University of El Salvador",
       logo: require("./assets/images/ues.png"),
       subHeader: "Degree, Teaching English as a Second or Foreign Language",
       duration: "Jan 2019 -  Oct 2024",
-      desc: "Participating in courses about Human Rights, Psychology, Education for Dievrsity, English Grammar, English Didactics, Linguistic Foundation in English, ... ",
-      
+      desc: "Participating in courses about Human Rights, Psychology, Education for Dievrsity, English Grammar, English Didactics, Linguistic Foundation in English, ... "
     },
     {
       schoolName: "ITCHA AGAPE, El Salvador",
       logo: require("./assets/images/itcha.png"),
       subHeader: "English Language",
       duration: "Jan 2015 -  Dec 2017",
-      desc: "Participating in courses about English Grammar, English Pronunciation, English Skills(Writting, Speaking, Listening, and Reading), ... ",
-      
+      desc: "Participating in courses about English Grammar, English Pronunciation, English Skills(Writting, Speaking, Listening, and Reading), ... "
     }
   ]
 };
@@ -177,7 +175,6 @@ const workExperiences = {
       desc: "This company is dedicated to the purchase and sale of school products, and the annual distribution of school packages in Chalatenango.",
       descBullets: [
         "Design and implement a console application in C# with Entity framework that automates Copy Delmy's inventory management."
-        
       ]
     }
   ]
@@ -195,7 +192,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Open Source Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",      
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   footerLink: [
     {
       name: "More Projects",
@@ -217,8 +214,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "C1 English Level",
-      subtitle:
-        "Ef Standard English Test (EF SET)",
+      subtitle: "Ef Standard English Test (EF SET)",
       image: require("./assets/images/ef-english.png"),
       footerLink: [
         {
@@ -226,11 +222,10 @@ const achievementSection = {
           url: "https://www.efset.org/cert/SBf43j"
         }
       ]
-    }, 
+    },
     {
       title: "Introduction to The IA",
-      subtitle:
-        "IBM Certificate",
+      subtitle: "IBM Certificate",
       image: require("./assets/images/ibm.jpg"),
       footerLink: [
         {
@@ -238,11 +233,10 @@ const achievementSection = {
           url: "https://coursera.org/verify/UUYP9V99T88L"
         }
       ]
-    }, 
+    },
     {
       title: "UX Experience",
-      subtitle:
-        "Google Certificate",
+      subtitle: "Google Certificate",
       image: require("./assets/images/google.png"),
       footerLink: [
         {
@@ -250,72 +244,71 @@ const achievementSection = {
           url: "https://coursera.org/verify/QNPF4ZEJ4CER"
         }
       ]
-    },     
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
 
- const blogSection = {
-   title: "Blogs",
-   subtitle:
-     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-   blogs: [
-     {
-       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-       description:
-         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-     },
-     {
-       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-       title: "Why REACT is The Best?",
-       description:
-         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-     }
+const blogSection = {
+  title: "Blogs",
+  subtitle:
+    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  blogs: [
+    {
+      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      description:
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+    },
+    {
+      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      title: "Why REACT is The Best?",
+      description:
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+    }
   ],
-   display: false // Set false to hide this section, defaults to true
- };
+  display: false // Set false to hide this section, defaults to true
+};
 
 // Talks Sections
 
- const talkSection = {
-   title: "TALKS",
-   subtitle: emoji(
-     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-   ),
+const talkSection = {
+  title: "TALKS",
+  subtitle: emoji(
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+  ),
 
-   talks: [
-     {
-       title: "Build Actions For Google Assistant",
-       subtitle: "Codelab at GDG DevFest Karachi 2019",
-       slides_url: "https://bit.ly/saadpasta-slides",
-       event_url: "https://www.facebook.com/events/2339906106275053/"
-     }
-   ],
-   display: false // Set false to hide this section, defaults to true
- };
+  talks: [
+    {
+      title: "Build Actions For Google Assistant",
+      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      slides_url: "https://bit.ly/saadpasta-slides",
+      event_url: "https://www.facebook.com/events/2339906106275053/"
+    }
+  ],
+  display: false // Set false to hide this section, defaults to true
+};
 
 // Podcast Section
 
 const podcastSection = {
-title: emoji("Podcast 🎙️"),
-subtitle: "I LOVE TO SHARE MY EXPERIENCE AND KNOWLEDGE",
+  title: emoji("Podcast 🎙️"),
+  subtitle: "I LOVE TO SHARE MY EXPERIENCE AND KNOWLEDGE",
 
-// Please Provide with Your Podcast embeded Link
-podcast: [
-"https://open.spotify.com/episode/7EOlCtdR6fDfk14VvCFxRw?si=bc2202343385430a"
-],
-display:  true// Set false to hide this section, defaults to true
+  // Please Provide with Your Podcast embeded Link
+  podcast: [
+    "https://open.spotify.com/episode/7EOlCtdR6fDfk14VvCFxRw?si=bc2202343385430a"
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Get in touch with me"),
-  image: require("./assets/images/foto.png"),  
-  subtitle:
-    "My Inbox is open for all."  
+  image: require("./assets/images/foto.png"),
+  subtitle: "My Inbox is open for all."
 };
 
 // Twitter Section
