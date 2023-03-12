@@ -36,9 +36,12 @@ const socialMediaLinks = {
   github: "https://github.com/ClarielAlfaro",
   linkedin: "https://www.linkedin.com/in/clariel-alfaro",
   gmail: "clariel.alfaro6@gmail.com",
+  yahoo: "clariel.alfaro6@yahoo.com",
   //gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/clariel.alfaro.9",
+  whatsapp: "https://wa.me/50376478446",
   //medium: "https://medium.com/@saadpasta",
+  
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -54,8 +57,9 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
+    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Experience working with different frameworks such as React Js, Node, Express, MongoDB, and more"
+      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
   ],
 
@@ -88,18 +92,22 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "SQL & MySQL DataBase",
+      skillName: "sql & mysql database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "Android",
-      fontAwesomeClassname: "fab fa-android"
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
+      fontAwesomeClassname: "fa-java"
+    },
+    {
+      skillName: "Android",
+      fontAwesomeClassname: "fa-android"
     }
-  ],
+   ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -128,8 +136,8 @@ const educationInfo = {
       schoolName: "ITCHA AGAPE, El Salvador",
       logo: require("./assets/images/itcha.png"),
       subHeader: "English Language",
-      duration: "Jan 2019 -  Oct 2024",
-      desc: "Participating in courses about Human Rights, Psychology, Education for Dievrsity, English Grammar, English Didactics, Linguistic Foundation in English, ... ",
+      duration: "Jan 2015 -  Dec 2017",
+      desc: "Participating in courses about English Grammar, English Pronunciation, English Skills(Writting, Speaking, Listening, and Reading), ... ",
       
     }
   ]
@@ -142,15 +150,11 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "65%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
       progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "75%"
     },
     {
       Stack: "English Language",
@@ -175,8 +179,7 @@ const workExperiences = {
         "Design and implement a console application in C# with Entity framework that automates Copy Delmy's inventory management."
         
       ]
-    },
-   
+    }
   ]
 };
 
@@ -184,42 +187,23 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true",
-  title: "Open Source Projects", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
+  title: "Open Source Projects",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",      
+  footerLink: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      name: "More Projects",
+      url: "https://github.com/ClarielAlfaro"
     }
+    //  you can add extra buttons here.
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -242,75 +226,96 @@ const achievementSection = {
           url: "https://www.efset.org/cert/SBf43j"
         }
       ]
-    }    
+    }, 
+    {
+      title: "Introduction to The IA",
+      subtitle:
+        "IBM",
+      image: require("./assets/images/ibm.jpg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://coursera.org/verify/UUYP9V99T88L"
+        }
+      ]
+    }, 
+    {
+      title: "UX Experience",
+      subtitle:
+        "Google",
+      image: require("./assets/images/google.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://coursera.org/verify/QNPF4ZEJ4CER"
+        }
+      ]
+    },     
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
 
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+ const blogSection = {
+   title: "Blogs",
+   subtitle:
+     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+   blogs: [
+     {
+       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+       description:
+         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+     },
+     {
+       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+       title: "Why REACT is The Best?",
+       description:
+         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+     }
   ],
-  display: false // Set false to hide this section, defaults to true
-};
+   display: false // Set false to hide this section, defaults to true
+ };
 
 // Talks Sections
 
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+ const talkSection = {
+   title: "TALKS",
+   subtitle: emoji(
+     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+   ),
 
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
+   talks: [
+     {
+       title: "Build Actions For Google Assistant",
+       subtitle: "Codelab at GDG DevFest Karachi 2019",
+       slides_url: "https://bit.ly/saadpasta-slides",
+       event_url: "https://www.facebook.com/events/2339906106275053/"
+     }
+   ],
+   display: false // Set false to hide this section, defaults to true
+ };
 
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+title: emoji("Podcast 🎙️"),
+subtitle: "I LOVE TO SHARE MY EXPERIENCE AND KNOWLEDGE",
 
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: false // Set false to hide this section, defaults to true
+// Please Provide with Your Podcast embeded Link
+podcast: [
+"https://open.spotify.com/episode/7EOlCtdR6fDfk14VvCFxRw?si=bc2202343385430a"
+],
+display:  true// Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Get in touch with me"),  
-    image: require("./assets/images/ues.png"), 
-     subtitle:
-    "My Inbox is open for all.",
-    location: "El Salvador",
-    number: "+503 7647-8446"
-    
+  title: emoji("Get in touch with me"),
+  image: require("./assets/images/foto.png"),  
+  subtitle:
+    "My Inbox is open for all."  
 };
 
 // Twitter Section
@@ -320,7 +325,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
