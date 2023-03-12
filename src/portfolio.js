@@ -230,7 +230,7 @@ const achievementSection = {
     {
       title: "Introduction to The IA",
       subtitle:
-        "IBM",
+        "IBM Certificate",
       image: require("./assets/images/ibm.jpg"),
       footerLink: [
         {
@@ -242,7 +242,7 @@ const achievementSection = {
     {
       title: "UX Experience",
       subtitle:
-        "Google",
+        "Google Certificate",
       image: require("./assets/images/google.png"),
       footerLink: [
         {
